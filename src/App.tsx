@@ -34,15 +34,16 @@ const MODULES = [
     difficulties: {
       easy: {
         xp: 100,
+        badge: "🦁 Money Safari - Easy",
         lessons: [
           {
             title: "What is Money?",
-            content: "Money is anything people agree to use to exchange for goods and services. In Kenya, we use the Kenyan Shilling (KES). Before money, people used barter — swapping goats for grain! M-Pesa lets us move money with just a phone.",
+            content: "Money is anything people agree to use to exchange for goods and services. In Kenya, we use the Kenyan Shilling (KSh). Before money, people used barter — swapping goats for grain! M-Pesa lets us move money with just a phone.",
             quiz: {
               q: "Which of the following is Kenya's official currency?",
               options: ["Dollar", "Kenyan Shilling", "Euro", "Rand"],
               answer: 1,
-              explanation: "The Kenyan Shilling (KES) is Kenya's official currency, used for all official transactions."
+              explanation: "The Kenyan Shilling (KSh) is Kenya's official currency, used for all official transactions."
             }
           },
           {
@@ -57,12 +58,12 @@ const MODULES = [
           },
           {
             title: "Your First Budget",
-            content: "A budget is a plan for your money. Use the 50-30-20 rule: 50% on Needs, 30% on Wants, 20% on Savings. If your pocket money is KES 500/week: KES 250 for needs, KES 150 for wants, KES 100 to save!",
+            content: "A budget is a plan for your money. Use the 50-30-20 rule: 50% on Needs, 30% on Wants, 20% on Savings. If your pocket money is KSh 500/week: KSh 250 for needs, KSh 150 for wants, KSh 100 to save!",
             quiz: {
-              q: "You receive KES 1,000. Using 50-30-20, how much should you save?",
-              options: ["KES 100", "KES 200", "KES 500", "KES 300"],
+              q: "You receive KSh 1,000. Using 50-30-20, how much should you save?",
+              options: ["KSh 100", "KSh 200", "KSh 500", "KSh 300"],
               answer: 1,
-              explanation: "20% of 1,000 = KES 200. Saving consistently — even small amounts — builds wealth over time."
+              explanation: "20% of 1,000 = KSh 200. Saving consistently — even small amounts — builds wealth over time."
             }
           }
         ]
@@ -134,7 +135,7 @@ const MODULES = [
         lessons: [
           {
             title: "The Power of Saving",
-            content: "Saving means keeping some money aside for the future. Kenyan banks, SACCOs (co-operatives), and M-Shwari offer savings accounts. Even saving KES 20/day = KES 7,300/year — enough for school supplies or a small business start!",
+            content: "Saving means keeping some money aside for the future. Kenyan banks, SACCOs (co-operatives), and M-Shwari offer savings accounts. Even saving KSh 20/day = KSh 7,300/year — enough for school supplies or a small business start!",
             quiz: {
               q: "Which Kenyan mobile savings tool lets you save directly from M-Pesa?",
               options: ["Equity Bank", "M-Shwari", "KCB", "Co-op Bank"],
@@ -144,25 +145,25 @@ const MODULES = [
           },
           {
             title: "SMART Financial Goals",
-            content: "Set SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound. Instead of 'I want money', say: 'I will save KES 5,000 for a laptop by December by putting aside KES 500/month.' That's a SMART goal!",
+            content: "Set SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound. Instead of 'I want money', say: 'I will save KSh 5,000 for a laptop by December by putting aside KSh 500/month.' That's a SMART goal!",
             quiz: {
               q: "Which is the BEST example of a SMART savings goal?",
               options: [
                 "I want to save money someday",
-                "I'll save KES 3,000 in 6 months for a textbook",
+                "I'll save KSh 3,000 in 6 months for a textbook",
                 "I want to be rich",
                 "I'll save a lot this year"
               ],
               answer: 1,
-              explanation: "Option B is SMART — it's specific (KES 3,000), measurable, achievable, relevant (textbook), and time-bound (6 months)."
+              explanation: "Option B is SMART — it's specific (KSh 3,000), measurable, achievable, relevant (textbook), and time-bound (6 months)."
             }
           },
           {
             title: "Compound Interest Magic",
-            content: "Compound interest means you earn interest on your interest — money making money! If you save KES 10,000 at 8% annual interest: Year 1 = KES 10,800. Year 5 = KES 14,693. Year 10 = KES 21,589. Start early — time is your biggest asset!",
+            content: "Compound interest means you earn interest on your interest — money making money! If you save KSh 10,000 at 8% annual interest: Year 1 = KSh 10,800. Year 5 = KSh 14,693. Year 10 = KSh 21,589. Start early — time is your biggest asset!",
             quiz: {
-              q: "You save KES 10,000 at 10% interest per year. After 2 years with compound interest, you have approximately:",
-              options: ["KES 12,000", "KES 12,100", "KES 11,000", "KES 10,200"],
+              q: "You save KSh 10,000 at 10% interest per year. After 2 years with compound interest, you have approximately:",
+              options: ["KSh 12,000", "KSh 12,100", "KSh 11,000", "KSh 10,200"],
               answer: 1,
               explanation: "Year 1: 10,000 × 1.1 = 11,000. Year 2: 11,000 × 1.1 = 12,100. Compound interest adds interest on interest!"
             }
@@ -231,7 +232,7 @@ const MODULES = [
           },
           {
             title: "M-Pesa & Mobile Money",
-            content: "Kenya leads the world in mobile money! M-Pesa launched in 2007 and now handles over KES 300 billion monthly. You can: Send money, Pay bills (Lipa na M-Pesa), Save (M-Shwari), Borrow (Fuliza), Buy insurance. Always protect your PIN!",
+            content: "Kenya leads the world in mobile money! M-Pesa launched in 2007 and now handles over KSh 300 billion monthly. You can: Send money, Pay bills (Lipa na M-Pesa), Save (M-Shwari), Borrow (Fuliza), Buy insurance. Always protect your PIN!",
             quiz: {
               q: "Which year did M-Pesa launch in Kenya?",
               options: ["2003", "2007", "2010", "2015"],
@@ -241,11 +242,11 @@ const MODULES = [
           },
           {
             title: "Financial Safety Online",
-            content: "Digital money needs digital safety! Never share: your M-Pesa PIN, bank passwords, OTP codes. Beware: job scams (send KES 500 to get KES 5,000 — it's fake!), phishing texts, fake loan apps. If in doubt, call the official helpline.",
+            content: "Digital money needs digital safety! Never share: your M-Pesa PIN, bank passwords, OTP codes. Beware: job scams (send KSh 500 to get KSh 5,000 — it's fake!), phishing texts, fake loan apps. If in doubt, call the official helpline.",
             quiz: {
-              q: "Someone texts you: 'You've won KES 50,000! Send KES 200 to claim.' What should you do?",
+              q: "Someone texts you: 'You've won KSh 50,000! Send KSh 200 to claim.' What should you do?",
               options: [
-                "Send the KES 200 immediately",
+                "Send the KSh 200 immediately",
                 "Ignore it — it's a scam",
                 "Share it with friends",
                 "Call them back"
@@ -305,7 +306,7 @@ const MODULES = [
             title: "Types of Income",
             content: "Income comes in 3 types: 1) EARNED income — wages from work (most common). 2) PASSIVE income — rent, royalties, business profit while you sleep. 3) PORTFOLIO income — dividends and interest from investments. True wealth builders combine all three!",
             quiz: {
-              q: "A student earns KES 500/month from a YouTube channel even when not posting. This is:",
+              q: "A student earns KSh 500/month from a YouTube channel even when not posting. This is:",
               options: ["Earned income", "Passive income", "Portfolio income", "Donation"],
               answer: 1,
               explanation: "Passive income keeps flowing without active work. Once content is created, it generates ongoing revenue — a key wealth-building strategy!"
@@ -330,12 +331,12 @@ const MODULES = [
             title: "Cash Flow & Profit",
             content: "Revenue − Costs = Profit. Cash flow is different — it's the timing of money in and out. A profitable business can still fail if customers don't pay on time! Track: Daily sales, weekly expenses, monthly profit. Use a simple spreadsheet or an app like Wave.",
             quiz: {
-              q: "Your business earns KES 20,000 in sales but has KES 25,000 in expenses. Your profit/loss is:",
+              q: "Your business earns KSh 20,000 in sales but has KSh 25,000 in expenses. Your profit/loss is:",
               options: [
-                "Profit of KES 5,000",
-                "Loss of KES 5,000",
+                "Profit of KSh 5,000",
+                "Loss of KSh 5,000",
                 "Break even",
-                "Revenue of KES 45,000"
+                "Revenue of KSh 45,000"
               ],
               answer: 1,
               explanation: "20,000 − 25,000 = −5,000. A loss! You must either increase sales or cut costs. Monitoring cash flow prevents business failure."
@@ -420,11 +421,11 @@ const MODULES = [
           },
           {
             title: "The NSE & Buying Shares",
-            content: "To buy NSE shares: 1) Open a CDS account (Central Depository System). 2) Choose a licensed stockbroker (Faida, AIB-AXYS, Old Mutual). 3) Start small — minimum investment is about KES 1,000. 4) Track using the NSE mobile app. Safaricom, Equity, and KCB are good starter stocks to research.",
+            content: "To buy NSE shares: 1) Open a CDS account (Central Depository System). 2) Choose a licensed stockbroker (Faida, AIB-AXYS, Old Mutual). 3) Start small — minimum investment is about KSh 1,000. 4) Track using the NSE mobile app. Safaricom, Equity, and KCB are good starter stocks to research.",
             quiz: {
               q: "What is the FIRST step to buying shares on the NSE?",
               options: [
-                "Deposit KES 1 million",
+                "Deposit KSh 1 million",
                 "Open a CDS account through a licensed stockbroker",
                 "Call the NSE directly",
                 "Ask friends for stock tips"
@@ -859,26 +860,36 @@ function LessonView({ module, difficulty, onBack, earnedXp, setEarnedXp, complet
     }
   };
 
+  const badgeName = `${module.icon} ${module.title} - ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}`;
+
   if (phase === "done") {
     return (
       <motion.div 
-        initial={{ opacity: 0, scale: 0.9 }}
+        initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         className="text-center py-8"
       >
-        <div className="text-6xl mb-4">{module.icon}</div>
-        <h2 className="text-2xl font-bold mb-2">Module Complete! 🎉</h2>
-        <p className="opacity-80 mb-4 text-sm">You earned the <strong>{module.badge}</strong> on <strong>{difficulty}</strong></p>
-        <div className="bg-gradient-to-br from-orange-500/20 to-orange-600/20 border border-orange-500/50 rounded-2xl p-6 mb-6">
-          <div className="text-4xl mb-2">{module.badge.split(" ")[0]}</div>
-          <div className="font-bold text-lg">{module.badge}</div>
+        <motion.div 
+          animate={{ rotate: [0, -10, 10, -10, 0], scale: [1, 1.2, 1] }}
+          transition={{ duration: 0.5 }}
+          className="text-8xl mb-4"
+        >
+          🏆
+        </motion.div>
+        <h2 className="text-3xl font-black mb-2 bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">Module Mastered!</h2>
+        <p className="opacity-80 mb-6 text-sm">You've conquered the <strong className="text-orange-400">{module.title}</strong> on <strong className="text-orange-400">{difficulty}</strong>!</p>
+        
+        <div className="bg-gradient-to-br from-orange-500/20 to-orange-600/20 border border-orange-500/50 rounded-2xl p-6 mb-8">
+          <div className="text-5xl mb-3">{module.icon}</div>
+          <div className="font-bold text-lg">{badgeName}</div>
           <div className="text-xs opacity-70 mt-1">+{module.difficulties[difficulty].xp} XP earned</div>
         </div>
+        
         <button 
           onClick={onBack} 
-          className="px-8 py-3.5 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl font-bold text-lg shadow-lg shadow-orange-500/20"
+          className="w-full py-4 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl font-bold text-lg shadow-lg shadow-orange-500/20"
         >
-          ← Back to Difficulty
+          Return to Safari
         </button>
       </motion.div>
     );
@@ -1158,6 +1169,86 @@ function PartnersTab() {
   );
 }
 
+function CalculatorsTab() {
+  const [compound, setCompound] = useState({ principal: 10000, rate: 8, years: 5 });
+  const [savings, setSavings] = useState({ goal: 50000, monthly: 1000, years: 3 });
+  const [budget, setBudget] = useState({ income: 20000, needs: 10000, wants: 6000, savings: 4000 });
+
+  const compoundResult = Math.round(compound.principal * Math.pow(1 + compound.rate / 100, compound.years));
+  const savingsResult = Math.round(savings.monthly * 12 * savings.years);
+  
+  return (
+    <div className="space-y-8">
+      <div className="text-center mb-8">
+        <div className="text-4xl mb-2">🧮</div>
+        <h2 className="text-2xl font-bold">Financial Tools</h2>
+        <p className="text-sm opacity-60">Plan your future in KSh</p>
+      </div>
+
+      {/* Compound Interest */}
+      <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
+        <h3 className="font-bold mb-4 text-orange-400">Compound Interest</h3>
+        <div className="grid grid-cols-2 gap-4 mb-4">
+          <div>
+            <label className="text-[10px] opacity-60 uppercase">Principal (KSh)</label>
+            <input type="number" value={compound.principal} onChange={e => setCompound({...compound, principal: Number(e.target.value)})} className="w-full bg-white/10 rounded-lg p-2 text-sm" />
+          </div>
+          <div>
+            <label className="text-[10px] opacity-60 uppercase">Rate (%)</label>
+            <input type="number" value={compound.rate} onChange={e => setCompound({...compound, rate: Number(e.target.value)})} className="w-full bg-white/10 rounded-lg p-2 text-sm" />
+          </div>
+        </div>
+        <div className="bg-orange-500/20 p-4 rounded-xl text-center">
+          <div className="text-[10px] opacity-70 uppercase">Future Value</div>
+          <div className="text-2xl font-bold">KSh {compoundResult.toLocaleString()}</div>
+        </div>
+      </div>
+
+      {/* Savings Goal */}
+      <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
+        <h3 className="font-bold mb-4 text-emerald-400">Savings Goal</h3>
+        <div className="grid grid-cols-2 gap-4 mb-4">
+          <div>
+            <label className="text-[10px] opacity-60 uppercase">Monthly (KSh)</label>
+            <input type="number" value={savings.monthly} onChange={e => setSavings({...savings, monthly: Number(e.target.value)})} className="w-full bg-white/10 rounded-lg p-2 text-sm" />
+          </div>
+          <div>
+            <label className="text-[10px] opacity-60 uppercase">Years</label>
+            <input type="number" value={savings.years} onChange={e => setSavings({...savings, years: Number(e.target.value)})} className="w-full bg-white/10 rounded-lg p-2 text-sm" />
+          </div>
+        </div>
+        <div className="bg-emerald-500/20 p-4 rounded-xl text-center">
+          <div className="text-[10px] opacity-70 uppercase">Total Saved</div>
+          <div className="text-2xl font-bold">KSh {savingsResult.toLocaleString()}</div>
+        </div>
+      </div>
+
+      {/* Budget Planner */}
+      <div className="bg-white/5 rounded-2xl p-6 border border-white/10">
+        <h3 className="font-bold mb-4 text-blue-400">Budget Planner</h3>
+        <div className="space-y-3">
+          <div>
+            <label className="text-[10px] opacity-60 uppercase">Monthly Income (KSh)</label>
+            <input type="number" value={budget.income} onChange={e => setBudget({...budget, income: Number(e.target.value)})} className="w-full bg-white/10 rounded-lg p-2 text-sm" />
+          </div>
+          <div className="flex justify-between text-sm">
+            <span>Needs (50%)</span>
+            <span className="font-bold">KSh {Math.round(budget.income * 0.5).toLocaleString()}</span>
+          </div>
+          <div className="flex justify-between text-sm">
+            <span>Wants (30%)</span>
+            <span className="font-bold">KSh {Math.round(budget.income * 0.3).toLocaleString()}</span>
+          </div>
+          <div className="flex justify-between text-sm">
+            <span>Savings (20%)</span>
+            <span className="font-bold">KSh {Math.round(budget.income * 0.2).toLocaleString()}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ─────────────────────────────────────────────
 //  MAIN APP
 // ─────────────────────────────────────────────
@@ -1241,6 +1332,26 @@ function AchievementsTab({ modules, completedLessons, earnedXp }: any) {
           );
         })}
       </div>
+
+      <div className="pt-8">
+        <h3 className="text-lg font-bold mb-4">Module Badges</h3>
+        <div className="grid grid-cols-2 gap-3">
+          {modules.flatMap((mod: any) => 
+            ['easy', 'medium', 'hard'].map(diff => {
+              const isCompleted = mod.difficulties[diff].lessons.every((_: any, i: number) => 
+                completedLessons.includes(`mod_${mod.id}_${diff}_lesson_${i}`)
+              );
+              return { mod, diff, isCompleted };
+            })
+          ).map(({ mod, diff, isCompleted }, idx) => (
+            <div key={`${mod.id}-${diff}`} className={`rounded-xl p-3 text-center border ${isCompleted ? 'bg-orange-500/20 border-orange-500' : 'bg-white/5 border-white/10'}`}>
+              <div className="text-2xl mb-1">{isCompleted ? mod.icon : "🔒"}</div>
+              <div className="text-[9px] font-bold truncate">{mod.title}</div>
+              <div className="text-[8px] opacity-70 uppercase">{diff}</div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
@@ -1258,10 +1369,25 @@ export default function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    const savedProgress = localStorage.getItem("kidzAndKashProgress");
+    if (savedProgress) {
+      const { earnedXp: savedXp, completedLessons: savedLessons } = JSON.parse(savedProgress);
+      setEarnedXp(savedXp);
+      setCompletedLessons(savedLessons);
+    }
+  }, []);
+
+  const saveProgress = () => {
+    localStorage.setItem("kidzAndKashProgress", JSON.stringify({ earnedXp, completedLessons }));
+    alert("Progress saved!");
+  };
+
   const TABS = [
     { id: "trail", label: "🗺️ Trail", icon: "🗺️" },
     { id: "achievements", label: "🏆 Medals", icon: "🏆" },
     { id: "nearby", label: "📍 Nearby", icon: "📍" },
+    { id: "calculators", label: "🧮 Tools", icon: "🧮" },
     { id: "curriculum", label: "📚 Studies", icon: "📚" },
     { id: "partners", label: "🤝 Partners", icon: "🤝" },
   ];
@@ -1356,6 +1482,7 @@ export default function App() {
                   />
                 )}
                 {tab === "nearby" && <NearbyFinder />}
+                {tab === "calculators" && <CalculatorsTab />}
                 {tab === "curriculum" && <CurriculumTab modules={MODULES} />}
                 {tab === "partners" && <PartnersTab />}
               </motion.div>
@@ -1367,7 +1494,7 @@ export default function App() {
       {/* Bottom Navigation */}
       {!activeModule && (
         <nav className="fixed bottom-0 left-0 right-0 bg-[#0D1B2A]/90 backdrop-blur-xl border-t border-white/10 pb-6 pt-2 px-2">
-          <div className="max-w-md mx-auto flex">
+          <div className="max-w-md mx-auto flex items-center">
             {TABS.map(t => (
               <button 
                 key={t.id} 
@@ -1379,6 +1506,13 @@ export default function App() {
                 {tab === t.id && <motion.div layoutId="nav-indicator" className="w-1 h-1 rounded-full bg-orange-500 mt-0.5" />}
               </button>
             ))}
+            <button 
+              onClick={saveProgress}
+              className="flex flex-col items-center gap-1 py-2 text-white/60 hover:text-orange-500 transition-all px-2"
+            >
+              <span className="text-xl">💾</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider">Save</span>
+            </button>
           </div>
         </nav>
       )}
