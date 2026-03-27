@@ -1,0 +1,5 @@
+{
+  "name": "Kidz & Kash",
+  "description": "A gamified financial literacy app for Kenyan youth, aligned with CBC and IGCSE curricula, featuring interactive modules and local financial insights.",
+  "requestFramePermissions": ["geolocation"]
+}
